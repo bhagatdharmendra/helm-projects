@@ -13,7 +13,7 @@ helm repo add example-hello  https://bhagatdharmendra.github.io/helm-projects/
 ## Deploy from example repo
 
 ```bash
-helm install example-app sonu/first-chart --namespace sonu --create-namespace
+helm install example-app example-hello/first-chart --namespace sonu --create-namespace
 
 ```
 
