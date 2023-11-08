@@ -1,0 +1,2 @@
+helm install -n worksp sonu-app first-chart/ --create-namespace 
+helm upgrade -n worksp sonu-app first-chart/ --create-namespace 
