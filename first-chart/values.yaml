@@ -28,10 +28,11 @@ serviceAccount:
 podAnnotations: {}
 podLabels: {}
 
-podSecurityContext: {}
-  # fsGroup: 2000
+podSecurityContext: 
+   runAsNonRoot: true
 
-securityContext: {}
+securityContext: 
+   allowPrivilegeEscalation: false
   # capabilities:
   #   drop:
   #   - ALL
